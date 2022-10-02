@@ -2,4 +2,15 @@
 
 # Введение в контроль версий.
 ***
-1. Установка Git - скачиваем  [git](https://git-scm.com/downloads) 
+1. Установка Git - скачать [git](https://git-scm.com/downloads) 
+2. Создать файл с расширением `.md` - лучше выделить отдельную папку в которой будет лежать данный файл.
+3. Открыть IDE в которой будете работать.
+4. Далее нужно создать git репозиторий из этого каталога, выполните команду `git init`.  
+>Response:  
+   $ git init
+    Initialized empty Git repository in     /Users/git/***/.git/
+5. Чтоб сохранить изменение в файле .md нужно выоплнить команду `git add "название файла.md` и `git commit -m "some text"`.  
+>  Response:  
+ [master 12cc696] some text
+ 1 file changed, 1 insertion(+)
+6. Используйте команду `git status`, чтобы проверить текущее состояние репозитория.
