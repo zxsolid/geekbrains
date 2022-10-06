@@ -51,3 +51,4 @@ no changes added to commit (use "git add" and/or "git commit -a")
 11. Для переключение между ветками используем команду `git checkout <название ветки>`.
 >  Response:  
 >Switched to branch 'название ветки'
+12. Для того чтобы смержить изменения нужно выполнить команду `git merge <название ветки>`
